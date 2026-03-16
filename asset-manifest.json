@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e3f4983.css",
-    "main.js": "/static/js/main.5cb36c34.js",
-    "index.html": "/index.html",
-    "main.2e3f4983.css.map": "/static/css/main.2e3f4983.css.map",
-    "main.5cb36c34.js.map": "/static/js/main.5cb36c34.js.map"
+    "main.css": "/react_food_router/static/css/main.2e3f4983.css",
+    "main.js": "/react_food_router/static/js/main.5cb36c34.js",
+    "index.html": "/react_food_router/index.html",
+    "main.2e3f4983.css.map": "/react_food_router/static/css/main.2e3f4983.css.map",
+    "main.5cb36c34.js.map": "/react_food_router/static/js/main.5cb36c34.js.map"
   },
   "entrypoints": [
     "static/css/main.2e3f4983.css",
