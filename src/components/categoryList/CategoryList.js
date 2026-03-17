@@ -1,5 +1,5 @@
 import './CategoryList.css';
-import CategoryItem from './CategoryItem';
+import CategoryItem from '../categoryItem/CategoryItem';
 function CategoryList({catalog=[]})
 {
  return(

@@ -1,0 +1,12 @@
+.btn
+{
+    background-color: #FF7700;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 7px;
+    border: 0;
+    cursor: pointer;
+    margin: 20px;
+}

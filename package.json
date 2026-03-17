@@ -2,8 +2,8 @@
   "name": "react_food_router",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://s-n-a-i-l.github.io/react_food_router/",
   "dependencies": {
-    "homepage":"https://s-n-a-i-l.github.io/react_food_router/",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",

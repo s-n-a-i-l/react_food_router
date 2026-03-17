@@ -1,22 +1,29 @@
 import './Home.css';
 import { useState, useEffect } from 'react';
 import { getAllCategories } from '../../api';
-//import Preloader
-import CategoryList from '../../components/CategoryList';
+import Preloader from '../../components/Preloader';
+import CategoryList from '../../components/categoryList/CategoryList';
 
 
 function Home() {
     const [catalog, setCatalog] = useState([]);
+    const [loading, setLoading] = useState(true);
     useEffect
     (
         () => {
-             getAllCategories().then((data) => { setCatalog(data.categories); });
+             setLoading(true);
+             getAllCategories()
+             .then((data) => {
+                setCatalog(data.categories);
+                setLoading(false); 
+             }).catch(() => setLoading(false));
 
         },[]
     );
     return (
         <div className='wrap'>
-            <CategoryList catalog={catalog}/>
+            {loading ? (<Preloader />) : 
+            (<CategoryList catalog={catalog} />)}
         </div>
     )
 }

@@ -3,7 +3,7 @@ import './Contacts.css';
 function Contacts()
 {
 
-     const text ={
+    const text ={
         title:'Contact',
         description:'E-mail:thetadatadb@gmail.com'
      }

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './CategoryItem.css';
 import { useState } from 'react';
 
@@ -13,11 +14,11 @@ function CategoryItem(props)
            
            <div className='text'>
                <h2>{strCategory}</h2>
-               <p>{strCategoryDescription}</p>
+               <p>{strCategoryDescription.slice(0,80)}...</p>
           
            
              <div className='card-action'>
-               <a href='#1'>Watch category</a>
+               <Link to={`/category/${strCategory}`}>Watch category</Link>
              </div> 
            </div>
         </div>

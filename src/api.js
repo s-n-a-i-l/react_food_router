@@ -6,15 +6,15 @@ const getAllCategories = async()=>
     return await response.json();
 }
 
-const getMealBy = async(idMeal)=>
+const getMealById = async(idMeal)=>
 {
     const response = await fetch(API_URL + '/lookup.php?i=' + idMeal);
     return await response.json();
 }
 
-const getFilteredCategory = async(carName)=>
+const getFilteredCategory = async(catName)=>
 {
-    const response = await fetch(API_URL + '/filter.php?c=' + carName);
+    const response = await fetch(API_URL + '/filter.php?c=' + catName);
     return await response.json();
 }
-export {getMealBy, getAllCategories, getFilteredCategory}
+export {getMealById, getAllCategories, getFilteredCategory}
