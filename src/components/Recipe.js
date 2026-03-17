@@ -70,7 +70,7 @@ function Recipe()
             </div>
 
             {!loading &&<button className='btn' onClick={goBack}>Go back</button>}
-        </div>
+          </div> 
     )
 }
 export default Recipe;
